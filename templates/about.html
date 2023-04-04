@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+   <body>
+<br><br>
+    <!-- Sign in form -->
+    <div id="contact" class="container border rounded  border-dark">
+        <form onsubmit="return validateForm()" name="myForm" class=" border-danger p-5 text-center" action="" method="post">
+            <h3>Already have an account?</h3>
+            <h2>Sign in</h2>
+            <input class="m-2 w-auto" type="email" name="email" placeholder="Email"> <br>
+            <input class="m-2" type="password" name="password" placeholder="password"><br><br>
+            <button type="submit" class="btn btn-info pl-4 pr-4">login</button>
+        </form>
+      </div>
+      <br><br>
+      <!-- sign up -->
+      <div id="contact" class="container border rounded  border-dark">
+        <form name="myForm2" onsubmit="return validateForm2()" class=" border-danger p-5 text-center" action="" method="post">
+            <h3>Register</h3>
+            <input class="m-2 w-auto" type="text" name="firstname" placeholder="First Name"> 
+            <input class="m-2" type="text" placeholder="Last Name" name="lastname"><br>
+            <input class="m-2" type="email" name="email" placeholder="Email" > 
+            <input class="m-2" type="number" name="phone"  placeholder="Phone Number"> <br>
+            <input class="m-2" type="password" name="password" placeholder="Password"> 
+            <input class="m-2" type="password" name="confirmPassword" placeholder="Confirm password"> <br><br>
+            <button  type="submit"  class="btn btn-info pl-4 pr-4">Sign up</button>
+        </form>
+      </div>
+      <br>
+      <br>
+
+      <script>
+
+        //form 1 validation
+          let validateForm = () => {
+            let email = document.forms["myForm"]["email"].value;
+            let password = document.forms["myForm"]["password"].value;
+  
+            if (email == "" || password == "" ) {
+              alert("All values must be filled out");
+              return false;
+          }
+        } 
+  
+        //form 2 validation
+  
+        let validateForm2 = () => {
+  
+          let firstname = document.forms["myForm2"]["firstname"].value;
+          let lastname = document.forms["myForm2"]["lastname"].value;
+          let email = document.forms["myForm2"]["email"];
+          let password = document.forms["myForm2"]["password"];
+          let confirmPassword = document.forms["myForm2"]["confirmPassword"].value;
+          let phone = document.forms["myForm2"]["phone"].value;
+  
+          if(firstname == "" || lastname =="" || email == "" ||password == ""|| confirmPassword == "" || phone == ""){
+            alert("all fields must be filled");
+            return false;
+            
+          }
+        }
+  
+      </script>
+
+  </body>
+</html>

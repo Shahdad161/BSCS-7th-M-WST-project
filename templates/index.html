@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+
+    <title>My WebProject</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <style>
+    .class0{
+      background-color: silver;
+    }
+    .navbars{
+      background-color: rgb(194, 194, 49);
+    }
+    .class1{
+      background-color: silver;
+    }
+    .class2{
+      background-color: rgb(223, 223, 46);
+      background-image: url(templatemo_footer.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .class3{
+      background-color: rgb(194, 194, 49);
+
+    }
+    .image{
+      border: solid 10px white;
+    }
+    ul{
+      list-style: none;
+    }
+    .list-hover:hover{
+      background-color: rgb(243, 243, 5);
+      border-bottom: solid rgb(196, 196, 26) 5px;
+
+    }
+    .center{
+      background-color: rgb(202, 202, 29);
+      min-height: 10px;
+    }
+    .head-colors{
+      color:  rgb(173, 173, 23);
+      
+    }
+    .icons{
+      font-size: 40px;
+      padding: 20px;
+    }
+    input{
+      background-color: rgb(235, 217, 151);
+    
+
+    }
+    .p-texts{
+      color: rgb(173, 173, 23);
+    }
+  </style>
+
+  <body>
+    <!-- Part 0 -->
+    <div class="class0">
+    <div class="row m-0">
+    <div class="col-1"></div>
+    <div class="col-8"><img class="img-fluid" src="{% static 'templatemo_logo.png' %}" alt="missing img"></div>
+    </div>
+    <!-- NavBar -->
+    <div class="navbars ">
+    <div class="container  ml-lg-5 d-lg-flex justify-content-lg-between">
+      <ul class=" col-lg-10 ml-lg-5 mt-0 mb-0  d-lg-flex">
+        <div class="list-hover d-lg-flex align-items-center justify-content-center p-2">
+          <li class="p-2">Home</li>
+        </div>
+        <div class="list-hover d-lg-flex align-items-center justify-content-center p-2">
+          <li class="p-2">Gallery</li>
+        </div>
+        <div class="list-hover d-lg-flex align-items-center justify-content-center p-2">
+          <li class="p-2">Templates</li>
+        </div>
+        <div class="list-hover d-lg-flex align-items-center justify-content-center p-2">
+          <li class="p-2">Themes</li>
+        </div>
+        
+        <a href="about/" class="list-hover d-lg-flex align-items-center justify-content-center p-2">
+          <li class="p-2">Contact</li>
+        </a>
+      
+      </ul>
+      <ul class="col-lg-2 p-2 mt-lg-3 ml-1">
+        <li>
+          <input type="text" placeholder="Enter key Here" >
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- Part 1 -->
+    <div class="class1">
+    <div class="container">
+      <br />
+      <h3>FREE CSS TEMEPLETES</h3>
+      <p>
+        <b class="p-texts">templatemo.com </b> dolor sit, amet consectetur adipisicing elit. Hic
+        <b class="p-texts">Pineapple</b>, quae et eligendi vitae tenetur voluptatum veniam error id.
+        Debitis a atque temporibus quasi beatae iste mollitia animi corporis
+        numquam. Lorem ipsum dolor sit amet <b class="p-texts">XHTML+CSS</b> consectetur adipisicing elit.
+        Officiis minima eveniet temporibus similique voluptates, autem culpa et
+        expedita <b class="p-texts">Free Photos</b> animi quisquam odit, officia nesciunt inventore! Consectetur
+        fugit quia ipsum nulla harum.
+      </p>
+      <div class="text-right">
+        <div class="btn btn-danger">Read more</div>
+      </div>
+      <hr/>
+      <br>
+      <h2 class="head-colors">Mega Development Projects</h2>
+      <div class="container p-3">
+      
+      <br>
+        <div class="row m-0">
+          <div class="col-lg-4 "> 
+              <img width="300px"  class="img-fluid image" src="{% static 'templatemo_image_01.png' %}"  alt="missing img">
+              <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+              <p class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+          </div>
+          <div class="col-lg-4"> 
+            <img width="300px" height="120px" class="img-fluid image" src="{% static 'templatemo_image_02.png' %}"   alt="missing img">
+            <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+            <p  class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+          </div>
+        <div class="col-lg-4"> 
+          <img width="300px" height="150px"  class="img-fluid image" src="{% static 'templatemo_image_03.png' %}" alt="missing img">
+          <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+          <p  class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+        </div>
+        </div>
+        <br><br>
+        <div class="row m-0">
+          <div class="col-lg-4 "> 
+              <img width="300px" height="150px" class="img-fluid image" src="{% static 'templatemo_image_04.png' %}" alt="missing img">
+              <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+              <p  class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+          </div>
+          <div class="col-lg-4"> 
+            <img width="300px" height="150px" class="img-fluid image"  src="{% static 'templatemo_image_05.png' %}" alt="missing img">
+            <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+            <p  class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+          </div>
+        <div class="col-lg-4"> 
+          <img width="300px" height="150px"  class="img-fluid image" src="{% static 'templatemo_image_06.png' %}" alt="missing img">
+          <p class="head-colors m-0 p-0 mt-2">Lorem ipsum dolor sit amet.</p>
+          <p  class="pr-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti odit, magni similique fugit incidunt liberi</p>
+        </div>
+        </div> <br>
+        <div class="text-right">
+          <div class="btn btn-danger">Read more</div>
+        </div>
+        
+      </div>
+    <br>
+    </div>
+  </div>
+  <!-- Part Center -->
+  <div class="center">
+
+  </div>
+
+    <!-- Part 2 -->
+  <div class="class2"><br>
+  <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-3">
+            <h4>Events</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg-3">
+            <h4>Partners</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg-3">
+            <h4>Profile</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p> <br>
+            <h4>Join US</h4>
+            <p>Lorem ipsum dolor sit Qui vero at totam eaque amet libero, dolor </p>
+
+            <i class="text-primary icons fa fa-twitter" aria-hidden="true"></i>
+            <i class="text-danger icons fa fa-instagram" aria-hidden="true"></i>
+            
+            
+          </div>
+          <div class="col-lg-3">
+            <h4>HTML+CSS</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt illo voluptatem eveniet eos consequatur animi sed deleniti commodi dolore rerum id inventore dignissimos, nesciunt aliquam neque cumque qui rem beatae? </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Part 3 -->
+    <div class="class3 m-0 text-center text-white">
+      <br>
+      <div class="row m-0">
+        <div class="col-lg-6">
+          <p class="">Copyright @2048 Your Company Name</p>
+          <p class="">Website templetes by free CSS Templetes</p>
+        </div>
+        <div class="col-lg-6 text-right">
+          <ul class="d-flex pt-lg-5 ">
+            <li class="mr-3">Home</li>
+            <li class="mr-3">Portfolio</li>
+            <li class="mr-3">About Us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
